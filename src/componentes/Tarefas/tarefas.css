@@ -1,0 +1,233 @@
+/*HEADER*/
+
+.topo {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+    position: fixed;
+}
+
+.topo_false {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.topo_esquerda {
+    display: flex;
+    margin-left: 15px;
+}
+
+.topo_esquerda a {
+    text-decoration: none;
+    color: white;
+}
+
+.topo_esquerda input {
+    border-radius: 5px;
+    width: 235px;
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 8px;
+    border: none;
+}
+
+.topo_esquerda button {
+    color: white;
+    margin-left: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo_esquerda {
+  display: flex;
+  align-items: center;
+}
+
+.topo_esquerda input {
+  margin-left: 10px;
+  padding: 6px;
+  padding-left: 15px;
+}
+
+.topo_esquerda select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+
+
+
+/* MAIN */
+main {
+    margin-top: 40px;
+    text-align: center;
+}
+.principal {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+}
+
+.titulo {
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.caixa_tarefas {
+    text-align: center;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 33%;
+}
+
+.tarefas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.tarefas div {
+    border: 3px solid rgb(206, 0, 0);
+    background-color: rgb(233, 233, 233);
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarefas div:hover {
+    background-color: rgb(255, 193, 193);
+}
+.cor2 div {
+    border: 3px solid rgb(214, 193, 0);
+}
+
+.cor2 div:hover {
+    background-color: rgb(250, 255, 183);
+}
+
+.cor3 div {
+    border: 3px solid rgb(37, 184, 0);
+}
+.cor3 div:hover {
+    background-color: rgb(182, 255, 182);
+}
+
+#tipo-tarefa {
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+#cxBtn {
+    border: none;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.btn_comecar {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.btn_comecar img {
+    width: 25px;
+    padding: 3px;
+}
+
+.btn_comecar:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+.btn_fazer {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.btn_fazer img {
+    width: 25px;
+    padding: 3px;
+}
+
+.btn_fazer:hover {
+    background-color: rgb(115, 255, 0);
+}
+
+.btn_nao_fazer {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btn_nao_fazer img {
+    width: 30px;
+}
+
+.btn_nao_fazer:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.btn_excluir {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.btn_excluir img {
+    width: 25px;
+    padding: 3px;
+}
+
+.btn_excluir:hover {
+    background-color: rgb(216, 216, 216);
+}

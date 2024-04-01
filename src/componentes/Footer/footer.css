@@ -1,0 +1,48 @@
+footer {
+    background-color: #000000;
+    padding-bottom: 25px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 179px;
+}
+
+.infos {
+    width: 100%;
+    height: 120px;
+    font-size: 15px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    margin: none;
+    padding: none;
+    text-align: center;
+}
+
+.infos div p {
+    margin-top: 4px;
+}
+
+.infotop {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+
+.info p {
+    text-align: center;
+    margin: 4px;
+}
+
+.col2 {
+    margin-bottom: 20px;
+}
