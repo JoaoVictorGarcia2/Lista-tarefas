@@ -1,4 +1,5 @@
-![listas-de-tarefas-significado-1024x576](https://github.com/JoaoVictorGarcia2/Lista-tarefas/assets/125100615/aa3a49c4-7331-4b9a-8ae9-85a1d12f0443)
+![produtividadebanner](https://github.com/JoaoVictorGarcia2/Lista-tarefas/assets/125100615/6e00863e-fe8f-418d-9085-93fe9f42fae9)
+
 # Agenda pessoal
 
 O projeto consiste em uma agenda pessoal para organizar tarefas com diversos fins.
