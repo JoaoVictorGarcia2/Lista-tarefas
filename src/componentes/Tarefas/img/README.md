@@ -1,11 +1,11 @@
 ![Pokémon_logo svg](https://github.com/JoaoVictorGarcia2/Projeto-pokedex/assets/125100615/bf9b6636-0ad2-4a5e-ab94-5faf3669b44b)
 
-# Agenda pessoal
+# PokeAPI
 
-O projeto consiste em uma agenda pessoal para organizar tarefas com diversos fins.
+O projeto consiste em uma "pokédex" quem tem a funcionalidade de realizar buscas de diversos pokémons através do nome, assim obtendo informações como altura, peso, tipo e Nº.
 
-### Agenda online
-https://lista-tarefas-umber.vercel.app/
+### Pokédex online
+https://joaovictorgarcia2.github.io/Projeto-pokedex/
 
 ## Como executar
 
@@ -13,7 +13,8 @@ https://lista-tarefas-umber.vercel.app/
 
 ## Como funciona
 
-As tarefas adicionadas são armazenadas no localstorage assim os mantendo mesmo apos a pagina ser recaregada ou fechada.
+Utilizando a PokéApi (https://pokeapi.co/) o codigo consiste em armazenar um valor(o nome) informado pelo usuario
+em uma variavel e após isso inseri-lo no https da pokéapi assim obtendo o retorna das informações dejesadas.
 
 ## Utilizei
 
