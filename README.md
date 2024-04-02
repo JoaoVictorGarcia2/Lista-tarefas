@@ -1,5 +1,4 @@
-![Pokémon_logo svg](https://github.com/JoaoVictorGarcia2/Projeto-pokedex/assets/125100615/bf9b6636-0ad2-4a5e-ab94-5faf3669b44b)
-
+![listas-de-tarefas-significado-1024x576](https://github.com/JoaoVictorGarcia2/Lista-tarefas/assets/125100615/aa3a49c4-7331-4b9a-8ae9-85a1d12f0443)
 # Agenda pessoal
 
 O projeto consiste em uma agenda pessoal para organizar tarefas com diversos fins.
