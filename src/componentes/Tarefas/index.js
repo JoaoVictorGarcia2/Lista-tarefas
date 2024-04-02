@@ -15,7 +15,7 @@ function Tarefas() {
   const [categoriaSelecionada, setCategoriaSelecionada] = useState('Trabalho');
 
   useEffect(() => {
-    const tarefasSalvas = JSON.parse(sessionStorage.getItem('tarefas'));
+    const tarefasSalvas = JSON.parse(localStorage.getItem('tarefas'));
     if (tarefasSalvas) {
       setTarefas(tarefasSalvas);
     }
@@ -23,7 +23,7 @@ function Tarefas() {
 
   const atualizarTarefas = (novasTarefas) => {
     setTarefas(novasTarefas);
-    sessionStorage.setItem('tarefas', JSON.stringify(novasTarefas));
+    localStorage.setItem('tarefas', JSON.stringify(novasTarefas));
   };
 
   const adicionarTarefa = () => {
