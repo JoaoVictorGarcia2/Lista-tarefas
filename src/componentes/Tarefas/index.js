@@ -99,7 +99,7 @@ function Tarefas() {
             <option value="Pessoal">Pessoal</option>
             <option value="Estudos">Estudos</option>
           </select>
-          <button onClick={adicionarTarefa}>Add</button>
+          <button onClick={adicionarTarefa}>Adicionar</button>
         </div>
       </header>
       <div className='topo_false'></div>

@@ -49,13 +49,17 @@
     margin-left: 5px;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
-    width: 40px;
+    width: 80px;
     height: 35px;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.topo_esquerda button:hover {
+    background-color: rgb(58, 58, 58);
 }
 
 .topo_esquerda {
